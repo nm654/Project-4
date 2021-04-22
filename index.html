@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <!-- DEVELOPER: Nemao Monroe (Started 4/17/2021 Due 4/22/2021), IS117-004, Spring 2021 ---->
+    <!-- CSS only Bootstrap Copied from Website -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+<body>
+<!---4/20/2021- Why Did I plan for 2 Dropdown Menus? REDO THIS PART-->
+<!--4/21/2021- I am not able to make a second Dropdown Menu at the time. I'm definitely taking the L on this part-->
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-info navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="50" height="50" alt="logo"></a>
+            <!-- Responsive Button for the smaller menu -->
+            <!--<button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">-->
+            <button class="navbar-toggler" type="button"
+                    data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown">
+                            Life
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="life.html">Reliance</a>
+                            <a class="dropdown-item" href="research.html">Research</a>
+                        </div>
+                    </li>
+                    <!-- Links to Other things -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="globalwarming.html">Global Warming</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="help.html">Help Out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact me!</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<header>
+    <!---4/21/2021--If I can't get this image to Center I'm putting in another Image to Center it!!-->
+    <!---<img src="images/big block.jpeg" alt="big glacier" class="center">
+    <img src="images/crystals.jpg" alt="Look at this cool ice" class="center">--->
+    <!---4/21/2021 Edit:bruh-->
+    <!---4/21/2021: Don't you have to make Cards or something?
+    Do that on another page.-->
+    <!---4/22/2021: USE THE CAROSEUL FOR THE IMAGES
+    How do I make this fit to width lol
+    NVM-->
+    <!---4/22/2021--- You do have to Make Cards Here. Just put them inside or something... IDK.-->
+    <div class="column">
+        <div class="card">
+            <img class="card-img-center" src="images/big block.jpeg" alt="big glacier">
+            <h2 class="card-title">Glaciers and the World Around Them</h2>
+        </div>
+</header>
+
+<main>
+<p>Glaciers may just look like giant blocks of ice floating in the middle of the ocean doing absolutely nothing,
+but they have their importance even if it doesn’t impact your daily life.</p><br>
+
+<blockquote>A glacier isn’t even made of just ice! It’s a long history of ice, snow, rock, sediment, and water.
+They come in multiple types based on their size (sheets, caps, valley, cirque) and location.
+They are often called “rivers of ice” and were named after the French word “Glace” which means ice.</blockquote>
+<br>
+
+<p>Today I’ll be covering some facts about glaciers to show their importance.</p>
+</main>
+
+<div>
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+                <span class="text-muted">&copy; April 22nd 2021, Nemao M., Credit to NSDIC, USGS, National Geographic,NPS, Glacier Park Foundation, Glacier.Org, Extreme Ice Survey
+        ,World Wild Life Organization |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+<!---4/21/2021: What does this even do??-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <!--4/21/2021--Oh it's for loading Okay-->
+</body>
+
+</html>

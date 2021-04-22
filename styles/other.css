@@ -1,0 +1,246 @@
+/* THE reset Selector*/
+*{
+	margin:0;
+	padding:0;
+}
+
+html {
+	background-color: white;
+}
+
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	margin: 0 auto;
+	width: 800px;
+	border:  3px solid #931420;
+	background-color: #fffded;
+
+}
+/* How do I get this color to worrk...??? Make them seperate somehow? Check w3schools*/
+
+a:focus, a:hover {
+	font-style: italic;
+}
+
+
+/* the styles for the header */
+header{
+padding-top: 1.5em;
+	padding-bottom: 2em;
+	background-image:linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+	border-bottom:  3px solid #931420;
+
+}
+
+
+
+header img {
+	padding-right: 30px;
+	padding-left: 30px;
+	float: left;
+	padding-bottom: 1em;
+}
+
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+
+/* wait, i think all these rules are for the Main, not the Headers...
+That makes a lot more sense, actually. */
+/* Is that true? Test it out it's changing the border...*/
+
+/*header h1{
+
+	padding-top: .3em;
+	padding-bottom: .3em;
+}*/
+
+
+
+/*section style?*/
+section{
+	width: 525px;
+	width: 525px;
+	float: right;
+
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:20px;
+
+
+}
+
+ header h2{
+	font-size:175%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+	/** I think it has to be specified as header h2, not just h2... it's messing with the speaker lines**/
+	 /** no it wasn't*/
+}
+
+ header h3 {
+
+	font-size:105%;
+	font-style: italic;
+	padding-bottom: .25em;
+}
+.shadow {
+	text-shadow: 2px 2px 2px #800000;
+
+}
+/* the styles for the main section */
+ main {
+	clear: left;
+	 background-color: #fffded;
+
+ }
+ /*The BORDER... is uneeded.*/
+ main h1 {
+	font-size:150%;
+	padding-top: .3em;
+	padding-left: .3em;
+	/*
+
+	padding-bottom: .3em;
+	border: 2px solid #931420;
+	border-radius: 10px 10px 10px 10px;
+	 background-color: white;
+	box-shadow: 3px 3px 3px 3px black;*/
+
+}
+
+ section h1{
+
+	 color: #800000;
+ }
+ main h2 {
+	font-size: 130%;
+	padding-top: .5em;
+	padding-bottom: .25em;
+/** Does the order change what displays...?
+No.**/
+
+}
+
+/*Article has seperate styles*/
+
+/*Remove the border*/
+
+article {
+	padding: .5em 0;
+}
+article h2 {
+	padding-top: 0;
+
+}
+article h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+article img {
+	float: right;
+	margin: .5em 0 1em 1em;
+	border: 1px solid black;
+}
+
+
+aside{
+	width: 215px;
+	float:right;
+	padding-left:1em;
+	background-color: #fffded;
+}
+
+
+aside img {
+	padding-bottom: 1em;
+
+}
+
+
+ main h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+
+}
+ main p{
+	padding-bottom: .5em;
+}
+
+ main blockquote{
+	padding-right: 2em;
+	padding-left: 2em;
+	font-style: italic;
+}
+
+ main ul{
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+ main li{
+	padding-bottom: .35em;
+}
+
+/* the styles for the footer */
+footer p {
+	background-color: #800000;
+	color: white;
+	text-align: center;
+	clear:right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+/*dude my cards...*/
+.card {
+	width: 500px;
+	float: left;
+	margin: 50px auto 50px auto;
+	border: black 1px solid;
+}
+
+
+.card img {
+	border-bottom: black 1px solid;
+}
+
+.card-title, .card-text {
+	padding: 5px
+}
+
+.jumbotron {
+	margin: 10px
+}
+
+.nav-item {
+	margin: 0 4.0625em;
+}
+
+.build img {
+	margin: 50px 100px 50px 0;
+	border: black solid 1px;
+	float:left;
+}
+
+.build-text {
+	display: inline-block;
+	margin: 60px 0 50px 0;
+}
+
+/*What would i even need the caroseul for-->*/
+/*4/22/2021: WAIIIIT--- USE THIS FOR THE GLACIER EXAMPLE IMAGES*/
+.carousel {
+	margin: 25px 0 0 0;
+}
+
+.carousel-inner > .item {
+	height: 400px;
+}
+/*Didn't work. Don't do that. Jumbotron only.*/
